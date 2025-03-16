@@ -11,7 +11,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
-  background-color: #f8f7ff;
+  background-color: #fbfbfb;
 }
 
 ul {
@@ -58,7 +58,7 @@ main {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-  gap: 2rem 1rem;
+  gap: 4rem 2rem;
 }
 
 article {
@@ -100,6 +100,7 @@ article {
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
     -webkit-box-orient: vertical;
   }
 
